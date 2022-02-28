@@ -1,0 +1,11 @@
+x=[4,9,7,7,5,2,5,8,4,9,0,8,]
+l=[]
+for i in x:
+    if i not in l:
+      p=(x.count(i))
+    if p%2==1:
+        l.append(i)
+print(l)
+output:
+[2, 0]
+
